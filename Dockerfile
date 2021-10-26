@@ -1,3 +1,3 @@
-FROM centos:centos7
-run yum update -y; yum install -y java net-tools openssh-server git yum gcc-c++ 
+FROM redhat/ubi8
+run yum update -y; yum install -y java java-devel gcc-c++ net-tools git 
 
